@@ -641,10 +641,16 @@ section.galeria-index4.size-container div img:hover{
   margin-bottom: -100px;
 }
 
+section.body-cot button{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .formulario {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 20px;
-  border-radius: 10px;
+  margin-top: 50px;
+  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 

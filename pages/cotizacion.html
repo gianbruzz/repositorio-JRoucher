@@ -75,39 +75,48 @@
 <section class="body-cot">
 
     <div class="size-container ">
-      <div class="row justify-content-end align-items-center" style="height: 100vh;">
-          <div class="col-sm-12 col-md-4 col-lg-6">
+      <div class="row justify-content-center align-items-center">
+          <div class="col-sm-12 col-md-10 col-lg-8">
               <div class="formulario">
                   <h2 class="text-center mb-4">Cotización</h2>
-                  <form>
+                  <form action="https://formsubmit.co/41cda11bce683c3bd0fc6f3063d69ef0" method="POST">
                       <div class="form-group">
                           <label for="nombre">Nombre</label>
-                          <input type="text" class="form-control" id="nombre" placeholder="Ingrese su Nombre">
+                          <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su Nombre">
                       </div>
                       <div class="form-group">
                         <label for="apellido">Apellido</label>
-                        <input type="text" class="form-control" id="apellido" placeholder="Ingrese su Apellido">
+                        <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Ingrese su Apellido">
                     </div>
                       <div class="form-group">
                           <label for="email">Correo Electrónico</label>
-                          <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
+                          <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese su correo electrónico">
                       </div>
                       <div class="form-group">
                         <label for="tel">Teléfono</label>
-                        <input type="tel" class="form-control" id="tel" placeholder="Ingrese su número de teléfono">
+                        <input type="tel" class="form-control" id="tel" name="tel" placeholder="Ingrese su número de teléfono">
                     </div>
                     <div class="form-group">
-                      <label for="formFileMultiple" class="form-label">Ingrese las imágenes del producto</label>
-                      <input class="form-control" type="file" id="formFileMultiple" multiple>
+                      <select class="form-select" aria-label="" id="empenar-vender" name="empenar-vender">
+                        <option selected>Seleccione una opción..</option>
+                        <option value="Empeñar producto">Empeñar producto</option>
+                        <option value="Vender producto">Vender producto</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="files" class="form-label">Ingrese las imágenes del producto</label>
+                      <input class="form-control" type="file" id="files" name="files" multiple>
                       <div class="form-text" id="basic-addon4">Tamaño máximo de la imagen: 100 MB
                         Formatos admitidos: jpg, jpeg, png.</div>
                     </div>
                       <div class="form-group">
                           <label for="mensaje">Mensaje</label>
-                          <textarea class="form-control" id="mensaje" rows="4" placeholder="Escriba su mensaje" ></textarea>
+                          <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escriba su mensaje" ></textarea>
                       </div>
-                      <button type="submit" class="btn btn-primary">Enviar</button>
-                  </form>
+                      <div class="form-group">
+                      <button type="submit" class="btn btn-outline-dark mx-auto d-block ">Enviar</button>
+                      </div>
+                    </form>
               </div>
       </div>
   </div>
