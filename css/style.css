@@ -967,7 +967,7 @@ input.newsletter{
   .galeria-index {
     display: grid;
     justify-content: space-around;
-    grid-template-columns: repeat(1, 400px);
+    grid-template-columns: repeat(1, 300px);
     grid-template-rows: repeat(6, auto);
     margin-top: 20px;
     grid-template-areas:
@@ -977,14 +977,108 @@ input.newsletter{
       "img2-txt"
       "img3"
       "img3-txt";
+      /* row-gap: 10px; */
     /* column-gap: 10px; */
     /* overflow: hidden; */
+  }
+
+  .img1-txt {
+    grid-area: img1-txt;
+    margin-top: 15px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+  }
+  .img2-txt {
+    grid-area: img2-txt;
+    margin-top: 15px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+  }
+  .img3-txt {
+    grid-area: img3-txt;
+    margin-top: 15px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+  }
+
+  /* Producto chevre */
+  .galeria-index2 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 170px);
+    grid-template-rows: repeat(5, auto);
+    margin-top: 20px;
+    grid-template-areas:
+      "imgchanchito imgchanchito   "
+      "txt1  txt1 "
+      "txt2   txt2"
+      "txt3   txt3"
+      "txt4   txt4";
+  }
+  .txt1 {
+    grid-area: txt1;
+    font-size: 50px;
+    margin-top: -100px;
+    text-align: center;
+  }
+  .txt2 {
+    grid-area: txt2;
+    margin-top: -50px;
+    text-align: center;
+    color: rgb(66, 64, 64);
+  }
+  .txt3 {
+    grid-area: txt3;
+    text-align: center;
+    color: rgb(66, 64, 64);
+  }
+  .txt4 {
+    grid-area: txt4;
+    text-align: center;
+    color: rgb(66, 64, 64);
+  }
+
+  /* Producto Collier */
+  .galeria-index3 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(5, auto);
+    margin-top: 100px;
+    grid-template-areas:
+      " imgcollar imgcollar "
+      " txt1-2 txt1-2  "
+      " txt2-2 txt2-2 "
+      " txt3-2 txt3-2 "
+      " txt4 txt4 ";
+  }
+
+  .txt1-2 {
+    grid-area: txt1-2;
+    font-size: 35px;
+    /* margin-top: 100px; */
+    /* padding-top: 60px; */
+    text-align: center;
+  }
+  .txt2-2 {
+    grid-area: txt2-2;
+    /* font-size: 50px; */
+    margin-top: -20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .txt3-2 {
+    grid-area: txt3-2;
+    /* font-size: 50px; */
+    margin-top: -20px;
+    padding: 20px;
+    text-align: center;
   }
 
   .galeria-index4 {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(1, 400px);
+    grid-template-columns: repeat(1, 300px);
     grid-template-rows: repeat(12, auto);
     margin-top: 20px;
     grid-template-areas:
@@ -1004,4 +1098,32 @@ input.newsletter{
     
   }
 
+  .bg-nosotros{
+    padding: 20px;
+  }
+  .bg-nosotros p{
+    
+    font-size: 15px; 
+  }
+
+}
+
+@media (max-width: 600px){
+  .video2{
+    display: none;
+    }
+    .slogan{
+      font-size: 50px;
+    }
+    
+}
+
+@media (max-width: 450px){
+
+.formulario {
+  width: 20rem;
+  height: auto;
+  margin-top: 50px;
+  margin-left: -90px;
+}
 }
