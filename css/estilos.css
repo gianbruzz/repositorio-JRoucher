@@ -1,0 +1,305 @@
+header {
+  background-color: white;
+  z-index: 100;
+  transition: all 0.5s;
+  padding: 7px;
+  box-shadow: rgba(133, 132, 132, 0.71) 0px 3px 5px;
+}
+header.header-pos {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+header.header-sm {
+  position: fixed;
+  transition: all 0.5s;
+}
+header nav {
+  justify-content: center;
+}
+header nav.size-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header nav.size-container .navbar-nav {
+  display: flex;
+  padding-left: 20px;
+  justify-content: space-around;
+  width: 100%;
+  list-style: none;
+}
+header nav.size-container .navbar-nav li a {
+  font-family: "Nunito Sans", sans-serif;
+  color: rgb(0, 0, 0);
+  transition: 0, 5s;
+  text-decoration: none;
+}
+header nav.size-container .navbar-nav li a:hover {
+  color: #cf32ff;
+}
+header nav.size-container img {
+  float: left;
+  max-height: 70px;
+}
+
+section .video2 {
+  position: relative;
+  margin-top: 85px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+main.size-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+main.size-container .parrafo-inicio-container {
+  width: 100%;
+  padding: 100px 0 100px 0;
+}
+main.size-container .parrafo-inicio-container .slogan {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+}
+main.size-container .parrafo-inicio-container .parrafo-inicio {
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+main.size-container .galeria-index {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(2, auto);
+  margin-top: 20px;
+  grid-template-areas: "img1 img2 img3" "img1-txt img2-txt img3-txt";
+}
+main.size-container .galeria-index .img1 {
+  grid-area: img1;
+  width: 100%;
+  height: 100%;
+}
+main.size-container .galeria-index .img2 {
+  grid-area: img2;
+  width: 100%;
+  height: 100%;
+}
+main.size-container .galeria-index .img3 {
+  grid-area: img3;
+  width: 100%;
+  height: 100%;
+}
+main.size-container .galeria-index .img1-txt {
+  grid-area: img1-txt;
+  margin-top: 15px;
+  text-align: center;
+}
+main.size-container .galeria-index .img2-txt {
+  grid-area: img2-txt;
+  margin-top: 15px;
+  text-align: center;
+}
+main.size-container .galeria-index .img3-txt {
+  grid-area: img3-txt;
+  margin-top: 15px;
+  text-align: center;
+}
+main.size-container .galeria-index p {
+  font-family: "Nunito Sans", sans-serif;
+}
+main.size-container section.galeria-index2 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(5, 120px);
+  margin-top: 20px;
+  grid-template-areas: "txt1 txt1 imgchanchito imgchanchito " "txt2 txt2 imgchanchito imgchanchito" "txt3 txt3 imgchanchito imgchanchito" "txt4 txt4 imgchanchito imgchanchito" "txt4 txt4 imgchanchito imgchanchito";
+}
+main.size-container section.galeria-index2 .img-chanchito-grid {
+  grid-area: imgchanchito;
+  width: 100%;
+  height: 100%;
+}
+main.size-container section.galeria-index2 .txt1 {
+  grid-area: txt1;
+  font-size: 60px;
+  padding-top: 60px;
+  text-align: center;
+}
+main.size-container section.galeria-index2 .txt2 {
+  grid-area: txt2;
+  padding-top: 60px;
+  color: rgb(66, 64, 64);
+}
+main.size-container section.galeria-index2 .txt3 {
+  grid-area: txt3;
+  padding-top: 10px;
+  color: rgb(66, 64, 64);
+}
+main.size-container section.galeria-index2 .txt4 {
+  grid-area: txt4;
+  color: rgb(66, 64, 64);
+}
+main.size-container .galeria-index3 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(5, 120px);
+  margin-top: 20px;
+  grid-template-areas: " imgcollar imgcollar txt1-2 txt1-2 " " imgcollar imgcollar txt2-2 txt2-2" " imgcollar imgcollar txt3-2 txt3-2" " imgcollar imgcollar txt4 txt4" " imgcollar imgcollar txt4 txt4";
+}
+main.size-container .galeria-index3 .img-collar-grid {
+  grid-area: imgcollar;
+  width: 100%;
+  height: 100%;
+}
+main.size-container .galeria-index3 .txt1-2 {
+  grid-area: txt1-2;
+  font-size: 50px;
+  text-align: center;
+}
+main.size-container .galeria-index3 .txt2-2 {
+  grid-area: txt2-2;
+  padding-top: 60px;
+  color: rgb(66, 64, 64);
+}
+main.size-container .galeria-index3 .txt3-2 {
+  grid-area: txt3-2;
+  padding-top: 60px;
+  color: rgb(66, 64, 64);
+}
+main.size-container .galeria-index4 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(2, auto);
+  margin-top: 20px;
+  grid-template-areas: " producto1 producto2 producto3 producto4 producto5 producto6 " " txt-producto1 txt-producto2 txt-producto3 txt-producto4 txt-producto5 txt-producto6";
+}
+main.size-container .galeria-index4 div {
+  overflow: hidden;
+}
+main.size-container .galeria-index4 img:hover {
+  transform: scale(1.2);
+}
+main.size-container .galeria-index4 .producto1 {
+  grid-area: producto1;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+main.size-container .galeria-index4 .producto2 {
+  grid-area: producto2;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+main.size-container .galeria-index4 .producto3 {
+  grid-area: producto3;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+main.size-container .galeria-index4 .producto4 {
+  grid-area: producto4;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+main.size-container .galeria-index4 .producto5 {
+  grid-area: producto5;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+main.size-container .galeria-index4 .producto6 {
+  grid-area: producto6;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+main.size-container .galeria-index4 .txt-producto1 {
+  grid-area: txt-producto1;
+  font-size: 20px;
+  text-align: center;
+}
+main.size-container .galeria-index4 .txt-producto2 {
+  grid-area: txt-producto2;
+  font-size: 20px;
+  text-align: center;
+}
+main.size-container .galeria-index4 .txt-producto3 {
+  grid-area: txt-producto3;
+  font-size: 20px;
+  text-align: center;
+}
+main.size-container .galeria-index4 .txt-producto4 {
+  grid-area: txt-producto4;
+  font-size: 20px;
+  text-align: center;
+}
+main.size-container .galeria-index4 .txt-producto5 {
+  grid-area: txt-producto5;
+  font-size: 20px;
+  text-align: center;
+}
+main.size-container .galeria-index4 .txt-producto6 {
+  grid-area: txt-producto6;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer {
+  background-image: linear-gradient(to top, #ad87d8 0%, #f58cd7 100%);
+  color: white;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+footer p {
+  font-family: "Nunito Sans", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+}
+footer .font-bold {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+}
+footer input .newsletter {
+  width: 300px;
+  padding: 10px 20px;
+  border-color: transparent;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-size: 15px;
+  background: transparent;
+  transition: 0.5s;
+}
+footer input .newsletter:focus {
+  outline: none;
+}
+footer .contacto-footer {
+  padding-bottom: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -13,7 +13,9 @@ header {
   padding: 7px;
   box-shadow: rgba(133, 132, 132, 0.71) 0px 3px 5px;
 }
-
+.div-white {
+  background-color: white;
+}
 .header-pos {
   position: fixed;
   top: 0;
@@ -350,10 +352,10 @@ i {
     " txt-producto1 txt-producto2 txt-producto3 txt-producto4 txt-producto5 txt-producto6";
 }
 
-section.galeria-index4 div {
+section.galeria-index4.size-container div {
   overflow: hidden;
 }
-section.galeria-index4 div img:hover {
+section.galeria-index4.size-container div img:hover {
   transform: scale(1.2);
 }
 .producto1 {
