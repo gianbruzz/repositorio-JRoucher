@@ -376,7 +376,7 @@ main .product-grid .product-exclusive-label {
 }
 
 .body-cot {
-  background: linear-gradient(rgba(245, 140, 215, 0.2), rgba(173, 135, 216, 0.2)), url("../assets/img/Choosing-the-Best-Gold-For-Your-Skin.jpg");
+  background: linear-gradient(rgba(231, 20, 171, 0.096), rgba(173, 135, 216, 0.103)), url("../assets/img/Choosing-the-Best-Gold-For-Your-Skin.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -385,7 +385,8 @@ main .product-grid .product-exclusive-label {
   margin-bottom: -100px;
 }
 .body-cot main .size-container .formulario, .body-cot main main .formulario {
-  background-color: rgba(241, 233, 233, 0.6);
+  background-color: rgba(233, 179, 222, 0.616);
+  color: white;
   padding: 20px;
   margin-top: 50px;
   border-radius: 20px;
@@ -670,6 +671,10 @@ footer .size-container .newsletter:focus, footer main .newsletter:focus {
     margin-top: 20px;
     row-gap: 10px;
     grid-template-areas: "producto1" "txt-producto1" "producto2" "txt-producto2" "producto3" "txt-producto3" "producto4" "txt-producto4" "producto5" "txt-producto5" "producto6" "txt-producto6";
+  }
+  .body-cot {
+    padding: 10px 0 20px 0;
+    margin-top: 100px;
   }
   footer .size-container .newsletter, footer main .newsletter {
     width: 40%;
