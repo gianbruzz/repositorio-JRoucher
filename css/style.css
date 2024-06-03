@@ -141,47 +141,6 @@ ul.navbar-nav li a:hover {
   font-size: 70px;
 }
 
-/* LO MAS VENDIDO - INICIO */
-
-.product {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.product img {
-  max-width: 100%;
-  height: auto;
-}
-
-.carousel-inner {
-  overflow: hidden;
-}
-
-.carousel-item > .row {
-  display: flex;
-}
-
-.carousel-item > .row > .col-sm-4 {
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
-}
-
-/* end */
-
-.ol-flex-li {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
-
-.section-flex {
-  display: flex;
-  justify-content: space-around;
-}
-section.section-flex div {
-  display: inline-block;
-  justify-content: center;
-}
 
 /* zoom en la imagen al pasar el mouse por encima */
 .div-img-container {
@@ -590,15 +549,7 @@ section.galeria-index4 div img:hover {
   z-index: -1;
 }
 
-/* .video-principal {
-  display: block;     
-  border: none;
-  clip-path: inset(0% 6% 0% 6%);
-  position: relative;
-  top: 0;
-  height: 100vh;
-  width: 100vw;
-} */
+/* novedades 2.0 */
 
 .bg-nov {
   margin-top: 100px;
@@ -673,11 +624,6 @@ section.galeria-index4 div img:hover {
   left: 10px;
 }
 
-@media (max-width: 990px) {
-  .product-grid {
-    margin-bottom: 30px;
-  }
-}
 
 /* cotizacion */
 

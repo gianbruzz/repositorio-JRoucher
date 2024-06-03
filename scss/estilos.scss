@@ -1,8 +1,19 @@
-@import './_header.scss';
-@import './_index.scss';
-@import './_footer.scss';
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+@import './resets';
+@import './extends';
+@import './header';
+@import './variables';
+@import './mixins';
+@import './index';
+@import './joyeria';
+@import './cotizacion';
+@import './novedades';
+@import './tiendas';
+@import './nosotros';
+@import './footer';
+@import './media-querie';
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+
+
+

@@ -1,0 +1,37 @@
+.bg-nosotros {
+  margin-top: 110px;
+  padding: 120px;
+  margin-bottom: -100px;
+  background: linear-gradient(rgba(182, 97, 158, 0.75),
+      rgba(123, 94, 156, 0.75)),
+    url("../assets/img/iStock-494833184-gold-jewelry.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  main {
+
+
+      @extend .size-container;
+
+      .h1-nosotros {
+        color: rgb(255, 255, 255);
+        font-family: $nunito;
+        font-weight: bold;
+        text-align: center;
+        font-size: 70px;
+        padding-bottom: 75px;
+      }
+
+      p {
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 300;
+      }
+    }
+  
+
+}

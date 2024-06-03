@@ -1,0 +1,70 @@
+.bg-nov {
+    margin-top: 100px;
+
+    .img-nov-disney img {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+}
+
+main {
+    
+    @extend .size-container;
+
+    .product-grid-nov {
+        font-family: $nunito;
+
+        .product-image-nov {
+            overflow: hidden;
+            position: relative;
+            z-index: 1;
+            display: block;
+
+            img {
+                width: 100%;
+                height: auto;
+
+                &.img-1-nov {
+                    transition: all 0.5s ease 0s;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+
+        .product-content-nov {
+            background: #ffffff;
+            padding: 20px;
+
+            
+                .title-nov {
+                    font-size: 17px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+            
+
+            .price {
+                color: #a3a3a3;
+                font-size: 15px;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+        .product-exclusive-label {
+            color: #fff;
+            background-image: linear-gradient(to top, #c276e6 0%, #f58cd7 100%);
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 3px 10px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+          }
+    }
+
+}

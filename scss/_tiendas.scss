@@ -1,0 +1,38 @@
+    .bg-tiendas {
+        margin-top: 110px;
+        padding-top: 120px;
+        margin-bottom: -100px;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(rgba(245, 140, 215, 0.6),
+                rgba(173, 135, 216, 0.4)),
+            url("../assets/img/Sell-gold-1440x960.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        main {
+
+                @extend .size-container;
+
+                h1 {
+                    color: rgb(255, 255, 255);
+                    font-family: $nunito;
+                    font-weight: bold;
+                    text-align: center;
+                    font-size: 70px;
+                    padding-bottom: 75px;
+                }
+
+                .card-maps {
+                    padding: 30px 30px 150px 30px;
+
+
+                    .card {
+                        padding: 10px;
+                        box-shadow: rgba(56, 55, 55, 0.6) 0px 5px 5px;
+                    }
+                }
+            }
+        
+    }

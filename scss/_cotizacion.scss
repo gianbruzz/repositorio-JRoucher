@@ -1,0 +1,78 @@
+
+    .body-cot {
+        background: linear-gradient(
+            rgba(245, 140, 215, 0.2),
+            rgba(173, 135, 216, 0.2)
+          ),
+          url("../assets/img/Choosing-the-Best-Gold-For-Your-Skin.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        padding: 100px;
+        margin-bottom: -100px;
+        main{
+          .size-container{
+
+          // @extend size-container;
+        .formulario {
+            background-color: rgba(241, 233, 233, 0.6);
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+            .form-group {
+                padding: 20px;
+                resize: none;
+              
+                .form-text {
+                  text-align: center;
+                }
+            }
+          }
+          button {
+            padding-left: 50px;
+            padding-right: 50px;
+          }
+        }
+      }
+      }
+
+
+
+
+
+// .body-cot {
+//     background: linear-gradient(
+//         rgba(245, 140, 215, 0.2),
+//         rgba(173, 135, 216, 0.2)
+//       ),
+//       url("../assets/img/Choosing-the-Best-Gold-For-Your-Skin.jpg");
+//     background-size: cover;
+//     background-position: center;
+//     height: 100%;
+//     padding: 100px;
+//     margin-bottom: -100px;
+//   }
+  
+//   section.body-cot button {
+//     padding-left: 50px;
+//     padding-right: 50px;
+//   }
+  
+//   .formulario {
+//     background-color: rgba(241, 233, 233, 0.6);
+//     padding: 20px;
+//     margin-top: 50px;
+//     border-radius: 20px;
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//   }
+  
+//   .form-group {
+//     padding: 20px;
+//     resize: none;
+//   }
+//   .form-text {
+//     text-align: center;
+//   }
